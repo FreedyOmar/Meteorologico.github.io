@@ -1,3 +1,7 @@
+function redirigir() {
+    window.location.href = "inicio.html"; 
+}
+
 // Función para crear una card
 function crearCardClima(ciudad, temperatura, descripcion, icono) {
     let fecha = new Date();
