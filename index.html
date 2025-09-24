@@ -2,37 +2,22 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clima en Tarjetas + Proyecto</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Clima en Ciudades</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+  <h1>🌍 Clima en varias ciudades de Ecuador</h1>
 
-  <!-- 🌤️ Clima -->
-  <h1 class="titulo">Clima en Tarjetas</h1>
-  <div id="cards" class="cards"></div>
-
-  <!-- 📘 Proyecto de Grado -->
-  <div class="proyecto">
-    <h2>UNIDAD EDUCATIVA <br> "JUAN BAUTISTA AGUIRRE"</h2>
-    <h3>Proyecto De Grado</h3>
-    <p class="descripcion">
-      DISEÑO Y DESARROLLO DE UNA APLICACION WEB INTERACTIVA CON LENGUAJE HTML Y JAVASCRIPT 
-      PARA LA GENERACION DE CONTRASEÑAS SEGURAS BASADAS EN DATOS PERSONALES MEDIANTE LA 
-      COMBINACION DE NUMEROS, LETRAS Y CARACTERES ESPECIALES
-    </p>
-
-    <div class="info-box">
-      <strong>ALUMNO:</strong>
-      <p>Anderson Josué Alvarado Nieto</p>
-    </div>
-
-    <div class="info-box">
-      <strong>CURSO:</strong>
-      <p>3RO INFORMÁTICA "C"</p>
-    </div>
+  <!-- 🔍 Barra de búsqueda -->
+  <div class="search-container">
+    <input type="text" id="buscarCiudad" placeholder="Escribe una ciudad del Ecuador...">
+    <button id="btnBuscar"><i class="fas fa-search"></i></button>
   </div>
 
-  <script src="script.js"></script>
+  <div id="cards" class="cards"></div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
