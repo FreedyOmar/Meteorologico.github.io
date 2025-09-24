@@ -17,7 +17,7 @@ function crearCardClima(ciudad, temperatura, descripcion, icono) {
 }
 
 $(document).ready(function() {
-    const ciudades = ["Quito", "Guayaquil", "Cuenca", "Ambato", "Daule", "Esmeraldas"];
+    const ciudades = [ "Daule"];
     const apiKey = "b8beeefa1a7b28349e7e2f3046e47b08";
 
     // Función para cargar clima de una ciudad
