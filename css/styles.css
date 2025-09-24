@@ -113,3 +113,56 @@ h1 {
 .forecast-day strong {
   text-transform: capitalize;
 }
+/* Estilos generales para móviles */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #fff; /* mejor contraste en fondo */
+  }
+
+  .search-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #buscarCiudad {
+    width: 100%;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+
+  #btnBuscar {
+    width: 100%;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr; /* 🔹 Una sola tarjeta por fila */
+    gap: 15px;
+  }
+
+  .card {
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .card__title {
+    font-size: 1.1rem;
+  }
+
+  .card__info {
+    font-size: 0.9rem;
+  }
+
+  .forecast-day {
+    font-size: 0.85rem;
+    padding: 8px;
+  }
+}
